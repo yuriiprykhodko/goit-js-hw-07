@@ -9,10 +9,7 @@ refs.buttonRander.addEventListener("click", () => createBoxes(refs.renderBox.val
 refs.buttonDestroy.addEventListener("click", destroyBoxes);
 function getRandomRgb() {
   const rgbNum = () => Math.floor(Math.random() * 256);
-  const r = rgbNum();
-  const g = rgbNum();
-  const b = rgbNum();
-  return `rgb(${r},${g},${b})`;
+  return `rgb(${rgbNum()},${rgbNum()},${rgbNum()})`;
 }
 function createBoxes(amount) {
   for (let i = 0; i < amount; i += 1) {
