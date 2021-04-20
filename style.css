@@ -4,7 +4,7 @@ img {
   height: auto;
 }
 .site_nav {
-  display: grid;
+  display: flex;
   margin: 0px;
   padding: 0px;
 }
